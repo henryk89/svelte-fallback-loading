@@ -84,8 +84,3 @@
 		aria-label={alt || 'Image'}
 	/>
 {/if}
-
-imge_src {image_src}
-{src}
-{fallback}
-{isLoading}

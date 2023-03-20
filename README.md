@@ -4,7 +4,7 @@ A svelte component library to handle slow and non existent images.
 
 ## Installation
 
-`npm i svelte-time`
+`npm i svelte-fallback-loading`
 
 ## Components
 
