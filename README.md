@@ -2,6 +2,10 @@
 
 A svelte component library to handle slow and non existent images.
 
+## Installation
+
+`npm i svelte-time`
+
 ## Components
 
 `FallbackImage` Configure a fallback image src that will be used if the primary image cannot be loaded.
@@ -32,18 +36,18 @@ or
 <LoadingFallbackImage fallbackMs={2000} loadingSrc="loading_image.png" src="primary_image.png" fallback="fallback_image.png" />
 ```
 
-### Props
+## Props
 
-| Name        | Type                       | Note                                               |
-| ----------- | -------------------------- | -------------------------------------------------- |
-| src         | string                     |                                                    |
-| fallback    | string                     | Only on `FallbackImage` and `LoadingFallbackImage` |
+| Name       | Type                       | Note                                               |
+| ---------- | -------------------------- | -------------------------------------------------- |
+| src        | string                     |                                                    |
+| fallback   | string                     | Only on `FallbackImage` and `LoadingFallbackImage` |
 | loadingSrc | string                     | Only on `LoadingImage` and `LoadingFallbackImage`  |
 | fallbackMs | number                     | Only on `LoadingFallbackImage`                     |
-| alt         | string                     |                                                    |
-| height      | string or number           |                                                    |
-| width       | string or number           |                                                    |
-| sizes       | string                     |                                                    |
-| srcset      | string                     |                                                    |
-| decoding    | "auto" or "sync" or "async | Set to "auto" by default                           |
+| alt        | string                     |                                                    |
+| height     | string or number           |                                                    |
+| width      | string or number           |                                                    |
+| sizes      | string                     |                                                    |
+| srcset     | string                     |                                                    |
+| decoding   | "auto" or "sync" or "async | Set to "auto" by default                           |
 | imgClass   | string                     | Img class attribute                                |
